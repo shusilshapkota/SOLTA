@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/middle_screen"
+    tools:context="com.cksco.theapp.Main3Activity">
+
+    <Button
+        android:id="@+id/left1"
+        android:layout_width="127dp"
+        android:layout_height="69dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="#00ffffff"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="499dp" />
+
+    <Button
+        android:id="@+id/right1"
+        android:layout_width="126dp"
+        android:layout_height="69dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:background="#00ffffff"
+        tools:layout_editor_absoluteX="258dp"
+        tools:layout_editor_absoluteY="499dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="71dp"
+        android:text="Before you start collecting:"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/imageView4"
+        android:layout_alignStart="@+id/imageView4"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="14dp"
+        android:text="1. Cover the camera on the device." />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView4"
+        android:layout_alignStart="@+id/textView4"
+        android:layout_below="@+id/textView2"
+        android:layout_marginTop="11dp"
+        android:text="2. Plug your device into a power source." />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2"
+        android:layout_alignStart="@+id/textView2"
+        android:layout_below="@+id/textView3"
+        android:layout_marginTop="11dp"
+        android:text="3. Start collecting by pressing the button below." />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="290dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/textView4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="91dp"
+        app:srcCompat="@drawable/collect_button" />
+
+    <Button
+        android:id="@+id/collect"
+        android:layout_width="290dp"
+        android:layout_height="50dp"
+        android:layout_alignLeft="@+id/imageView4"
+        android:layout_alignStart="@+id/imageView4"
+        android:layout_alignTop="@+id/imageView4"
+        android:background="#00ffffff" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:adjustViewBounds="true"
+        android:paddingLeft="0dp"
+        app:srcCompat="@drawable/bottom_bar" />
+
+</RelativeLayout>
