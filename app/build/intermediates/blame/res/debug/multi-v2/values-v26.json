@@ -1,10 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "D:\\TheApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v26\\values-v26.xml",
+            "outputFile": "D:\\CRA_UI_\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v26\\values-v26.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\1shap\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\3da73936562461ea747ff0add9f15cd9\\res\\values-v26\\values-v26.xml",
+                    "source": "C:\\Users\\1shap\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\fdf23a2008562503c0384fd565b26f31\\res\\values-v26\\values-v26.xml",
                     "from": {
                         "startLines": "2,3,4,8,12,16",
                         "startColumns": "4,4,4,4,4,4",
@@ -17,10 +17,10 @@
             ]
         },
         {
-            "outputFile": "C:\\AndroidStudioProj-ProjectMu\\FirebaseTest-master (1)\\TheApp\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v26\\values-v26.xml",
+            "outputFile": "D:\\CRA_UI_\\app\\build\\intermediates\\res\\merged\\debug\\values-v26\\values-v26.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\cksco\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\f790470c517676d68bf5e2916755e009\\res\\values-v26\\values-v26.xml",
+                    "source": "C:\\Users\\1shap\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\fdf23a2008562503c0384fd565b26f31\\res\\values-v26\\values-v26.xml",
                     "from": {
                         "startLines": "2,3,4,8,12,16",
                         "startColumns": "4,4,4,4,4,4",

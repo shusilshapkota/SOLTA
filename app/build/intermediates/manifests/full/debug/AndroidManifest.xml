@@ -37,13 +37,6 @@
         <activity android:name="com.cksco.theapp.Main4Activity" />
         <activity android:name="com.cksco.theapp.Main5Activity" />
         <activity android:name="com.cksco.theapp.Main6Activity" />
-
-        <meta-data
-            android:name="android.support.VERSION"
-            android:value="26.1.0" />
-        <meta-data
-            android:name="android.arch.lifecycle.VERSION"
-            android:value="27.0.0-SNAPSHOT" />
     </application>
 
 </manifest>
