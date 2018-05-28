@@ -1,4 +1,4 @@
-#Thu May 24 19:40:51 EDT 2018
-base.0=D\:\\CRA_UI_\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\5
+#Sat May 26 20:21:29 EDT 2018
+base.0=D\:\\CRA_UI_\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\61
 path.0=classes.dex
 renamed.0=classes.dex

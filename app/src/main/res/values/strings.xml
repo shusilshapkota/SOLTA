@@ -1,3 +1,4 @@
 <resources>
-    <string name="app_name">The App</string>
+    <string name="app_name">SOLTA</string>
+    <string name="facebook_application_id" translatable="false">2010644662342407</string>
 </resources>
