@@ -26,7 +26,7 @@ import com.facebook.appevents.AppEventsLogger;
 
 ///@Shusil
 
-public class MainActivity extends AppCompatActivity {
+public class MainActivity extends AppCompatActivity implements View.OnClickListener {
     private Button button;
     // request code value
     private static final int RC_SIGN_IN = 123;
@@ -48,5 +48,10 @@ public class MainActivity extends AppCompatActivity {
     public void openMain2Activity(){
         Intent intent = new Intent(this, logins.class);
         startActivity(intent);
+    }
+
+    @Override
+    public void onClick(View v) {
+
     }
 }
