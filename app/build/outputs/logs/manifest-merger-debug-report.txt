@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from D:\CRA_UI_\app\src\main\AndroidManifest.xml:2:1-64:12
-INJECTED from D:\CRA_UI_\app\src\main\AndroidManifest.xml:2:1-64:12
-INJECTED from D:\CRA_UI_\app\src\main\AndroidManifest.xml:2:1-64:12
-INJECTED from D:\CRA_UI_\app\src\main\AndroidManifest.xml:2:1-64:12
+ADDED from D:\CRA_UI_\app\src\main\AndroidManifest.xml:2:1-66:12
+INJECTED from D:\CRA_UI_\app\src\main\AndroidManifest.xml:2:1-66:12
+INJECTED from D:\CRA_UI_\app\src\main\AndroidManifest.xml:2:1-66:12
+INJECTED from D:\CRA_UI_\app\src\main\AndroidManifest.xml:2:1-66:12
 MERGED from [com.google.firebase:firebase-core:15.0.0] C:\Users\1shap\.gradle\caches\transforms-1\files-1.1\firebase-core-15.0.0.aar\0084592f3a9b81df40640b64214348c0\AndroidManifest.xml:2:1-9:12
 MERGED from [com.facebook.android:facebook-android-sdk:4.22.1] C:\Users\1shap\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.22.1.aar\3fcd14479bfbd9c7b268cc1289cc97d6\AndroidManifest.xml:21:1-50:12
 MERGED from [com.firebaseui:firebase-ui-auth:3.3.1] C:\Users\1shap\.gradle\caches\transforms-1\files-1.1\firebase-ui-auth-3.3.1.aar\a702af03e7628aa9be119ae232c5e2e5\AndroidManifest.xml:2:1-93:12
@@ -50,22 +50,22 @@ MERGED from [android.arch.core:runtime:1.1.0] C:\Users\1shap\.gradle\caches\tran
 MERGED from [android.arch.lifecycle:viewmodel:1.1.0] C:\Users\1shap\.gradle\caches\transforms-1\files-1.1\viewmodel-1.1.0.aar\86868de69358b5ab27f666e57bcae6b8\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support:cardview-v7:27.1.0] C:\Users\1shap\.gradle\caches\transforms-1\files-1.1\cardview-v7-27.1.0.aar\c82cd72fe7941fcbcacb0cb3c00116dc\AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.android.gms:play-services-measurement-base:15.0.2] C:\Users\1shap\.gradle\caches\transforms-1\files-1.1\play-services-measurement-base-15.0.2.aar\baadda7fc955723d076d550743abb63e\AndroidManifest.xml:17:1-24:12
-INJECTED from D:\CRA_UI_\app\src\main\AndroidManifest.xml:2:1-64:12
-INJECTED from D:\CRA_UI_\app\src\main\AndroidManifest.xml:2:1-64:12
-INJECTED from D:\CRA_UI_\app\src\main\AndroidManifest.xml:2:1-64:12
+INJECTED from D:\CRA_UI_\app\src\main\AndroidManifest.xml:2:1-66:12
+INJECTED from D:\CRA_UI_\app\src\main\AndroidManifest.xml:2:1-66:12
+INJECTED from D:\CRA_UI_\app\src\main\AndroidManifest.xml:2:1-66:12
 	package
 		ADDED from D:\CRA_UI_\app\src\main\AndroidManifest.xml:4:5-31
 		INJECTED from D:\CRA_UI_\app\src\main\AndroidManifest.xml
 		INJECTED from D:\CRA_UI_\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from D:\CRA_UI_\app\src\main\AndroidManifest.xml
-		ADDED from D:\CRA_UI_\app\src\main\AndroidManifest.xml:2:1-64:12
+		ADDED from D:\CRA_UI_\app\src\main\AndroidManifest.xml:2:1-66:12
 		INJECTED from D:\CRA_UI_\app\src\main\AndroidManifest.xml
 	xmlns:tools
 		ADDED from D:\CRA_UI_\app\src\main\AndroidManifest.xml:3:5-51
 	android:versionCode
 		INJECTED from D:\CRA_UI_\app\src\main\AndroidManifest.xml
-		ADDED from D:\CRA_UI_\app\src\main\AndroidManifest.xml:2:1-64:12
+		ADDED from D:\CRA_UI_\app\src\main\AndroidManifest.xml:2:1-66:12
 		INJECTED from D:\CRA_UI_\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from D:\CRA_UI_\app\src\main\AndroidManifest.xml:2:11-69
@@ -108,7 +108,7 @@ ADDED from D:\CRA_UI_\app\src\main\AndroidManifest.xml:23:5-69
 	android:name
 		ADDED from D:\CRA_UI_\app\src\main\AndroidManifest.xml:23:22-66
 application
-ADDED from D:\CRA_UI_\app\src\main\AndroidManifest.xml:25:5-62:19
+ADDED from D:\CRA_UI_\app\src\main\AndroidManifest.xml:25:5-64:19
 MERGED from [com.google.firebase:firebase-core:15.0.0] C:\Users\1shap\.gradle\caches\transforms-1\files-1.1\firebase-core-15.0.0.aar\0084592f3a9b81df40640b64214348c0\AndroidManifest.xml:7:5-20
 MERGED from [com.google.firebase:firebase-core:15.0.0] C:\Users\1shap\.gradle\caches\transforms-1\files-1.1\firebase-core-15.0.0.aar\0084592f3a9b81df40640b64214348c0\AndroidManifest.xml:7:5-20
 MERGED from [com.facebook.android:facebook-android-sdk:4.22.1] C:\Users\1shap\.gradle\caches\transforms-1\files-1.1\facebook-android-sdk-4.22.1.aar\3fcd14479bfbd9c7b268cc1289cc97d6\AndroidManifest.xml:28:5-48:19
@@ -162,17 +162,17 @@ MERGED from [com.google.android.gms:play-services-measurement-base:15.0.2] C:\Us
 activity#com.cksco.theapp.MainActivity
 ADDED from D:\CRA_UI_\app\src\main\AndroidManifest.xml:32:9-41:20
 	android:screenOrientation
-		ADDED from D:\CRA_UI_\app\src\main\AndroidManifest.xml:35:13-49
+		ADDED from D:\CRA_UI_\app\src\main\AndroidManifest.xml:36:13-49
 	android:label
-		ADDED from D:\CRA_UI_\app\src\main\AndroidManifest.xml:34:13-34
+		ADDED from D:\CRA_UI_\app\src\main\AndroidManifest.xml:35:13-34
 	android:name
 		ADDED from D:\CRA_UI_\app\src\main\AndroidManifest.xml:33:13-41
 intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
-ADDED from D:\CRA_UI_\app\src\main\AndroidManifest.xml:36:13-40:29
+ADDED from D:\CRA_UI_\app\src\main\AndroidManifest.xml:37:13-40:29
 action#android.intent.action.MAIN
-ADDED from D:\CRA_UI_\app\src\main\AndroidManifest.xml:37:17-69
+ADDED from D:\CRA_UI_\app\src\main\AndroidManifest.xml:38:17-69
 	android:name
-		ADDED from D:\CRA_UI_\app\src\main\AndroidManifest.xml:37:25-66
+		ADDED from D:\CRA_UI_\app\src\main\AndroidManifest.xml:38:25-66
 category#android.intent.category.LAUNCHER
 ADDED from D:\CRA_UI_\app\src\main\AndroidManifest.xml:39:17-77
 	android:name
@@ -182,7 +182,7 @@ ADDED from D:\CRA_UI_\app\src\main\AndroidManifest.xml:42:9-51
 	android:name
 		ADDED from D:\CRA_UI_\app\src\main\AndroidManifest.xml:42:19-48
 meta-data#preloaded_fonts
-ADDED from D:\CRA_UI_\app\src\main\AndroidManifest.xml:44:9-48:37
+ADDED from D:\CRA_UI_\app\src\main\AndroidManifest.xml:44:9-48:38
 	android:resource
 		ADDED from D:\CRA_UI_\app\src\main\AndroidManifest.xml:46:13-54
 	tools:replace
@@ -191,26 +191,34 @@ ADDED from D:\CRA_UI_\app\src\main\AndroidManifest.xml:44:9-48:37
 		ADDED from D:\CRA_UI_\app\src\main\AndroidManifest.xml:48:13-35
 	android:name
 		ADDED from D:\CRA_UI_\app\src\main\AndroidManifest.xml:45:13-43
-activity#com.cksco.theapp.Main3Activity
+activity#com.cksco.theapp.Main2Activity_
+ADDED from D:\CRA_UI_\app\src\main\AndroidManifest.xml:50:9-61
+	android:name
+		ADDED from D:\CRA_UI_\app\src\main\AndroidManifest.xml:50:19-49
+activity#com.cksco.theapp.MainActivity_
 ADDED from D:\CRA_UI_\app\src\main\AndroidManifest.xml:51:9-51
 	android:name
 		ADDED from D:\CRA_UI_\app\src\main\AndroidManifest.xml:51:19-48
-activity#com.cksco.theapp.Main4Activity
-ADDED from D:\CRA_UI_\app\src\main\AndroidManifest.xml:52:9-51
-	android:name
-		ADDED from D:\CRA_UI_\app\src\main\AndroidManifest.xml:52:19-48
-activity#com.cksco.theapp.Main5Activity
+activity#com.cksco.theapp.Main3Activity
 ADDED from D:\CRA_UI_\app\src\main\AndroidManifest.xml:53:9-51
 	android:name
 		ADDED from D:\CRA_UI_\app\src\main\AndroidManifest.xml:53:19-48
-activity#com.cksco.theapp.Main6Activity
+activity#com.cksco.theapp.Main4Activity
 ADDED from D:\CRA_UI_\app\src\main\AndroidManifest.xml:54:9-51
 	android:name
 		ADDED from D:\CRA_UI_\app\src\main\AndroidManifest.xml:54:19-48
-activity#com.cksco.theapp.logins
-ADDED from D:\CRA_UI_\app\src\main\AndroidManifest.xml:55:9-61:20
+activity#com.cksco.theapp.Main5Activity
+ADDED from D:\CRA_UI_\app\src\main\AndroidManifest.xml:55:9-51
 	android:name
-		ADDED from D:\CRA_UI_\app\src\main\AndroidManifest.xml:55:19-41
+		ADDED from D:\CRA_UI_\app\src\main\AndroidManifest.xml:55:19-48
+activity#com.cksco.theapp.Main6Activity
+ADDED from D:\CRA_UI_\app\src\main\AndroidManifest.xml:56:9-51
+	android:name
+		ADDED from D:\CRA_UI_\app\src\main\AndroidManifest.xml:56:19-48
+activity#com.cksco.theapp.logins
+ADDED from D:\CRA_UI_\app\src\main\AndroidManifest.xml:57:9-63:20
+	android:name
+		ADDED from D:\CRA_UI_\app\src\main\AndroidManifest.xml:57:19-41
 uses-sdk
 INJECTED from D:\CRA_UI_\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\CRA_UI_\app\src\main\AndroidManifest.xml

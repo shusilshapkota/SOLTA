@@ -33,9 +33,14 @@ public class Main3Activity extends AppCompatActivity {
         collect.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                openMain5Activity();
+                moveToCamerasStuffs();
             }
         });
+    }
+
+    public void moveToCamerasStuffs() {
+        Intent intent = new Intent(getApplicationContext(), MainActivity_.class);
+        startActivity(intent);
     }
 
     public void openMain4Activity(){

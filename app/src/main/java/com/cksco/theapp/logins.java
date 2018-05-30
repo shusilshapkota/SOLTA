@@ -25,8 +25,7 @@ public class logins extends AppCompatActivity {
                         .createSignInIntentBuilder()
                         .setAvailableProviders(Arrays.asList(
                                 new AuthUI.IdpConfig.EmailBuilder().build(),
-                                new AuthUI.IdpConfig.GoogleBuilder().build(),
-                                new AuthUI.IdpConfig.FacebookBuilder().build()))
+                                new AuthUI.IdpConfig.GoogleBuilder().build()))
                         .setTheme(R.style.GreenTheme)
                         .setLogo(R.drawable.logo)
                         .build(),

@@ -68,11 +68,6 @@ public class Main2Activity extends AppCompatActivity {
 
 
 
-
-
-
-
-
     public void openMain3Activity(){
         Intent intent = new Intent(this, Main3Activity.class);
         startActivity(intent);
