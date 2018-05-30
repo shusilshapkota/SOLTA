@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Wed May 30 16:55:04 EDT 2018
+#Wed May 30 19:35:54 EDT 2018
 2.base=D\:\\CRA_UI_\\app\\build\\intermediates\\assets\\debug
 5.set=DEX
 0.path=classes.dex

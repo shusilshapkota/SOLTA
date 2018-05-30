@@ -11,6 +11,9 @@ import com.google.firebase.auth.FirebaseUser;
 
 import java.util.Arrays;
 
+import com.facebook.FacebookSdk;
+import com.facebook.appevents.AppEventsLogger;
+
 public class logins extends AppCompatActivity {
     final private int RC_SIGN_IN = 123;
     @Override
@@ -25,6 +28,7 @@ public class logins extends AppCompatActivity {
                         .createSignInIntentBuilder()
                         .setAvailableProviders(Arrays.asList(
                                 new AuthUI.IdpConfig.EmailBuilder().build(),
+
                                 new AuthUI.IdpConfig.GoogleBuilder().build()))
                         .setTheme(R.style.GreenTheme)
                         .setLogo(R.drawable.logo)
