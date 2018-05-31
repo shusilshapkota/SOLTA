@@ -1,3 +1,2 @@
-# CRA_UI_
-Cosmic Ray Detector App
+# Cosmic Ray Detector App
 An app that detects cosmic rays using Camera's CMOS sensor
