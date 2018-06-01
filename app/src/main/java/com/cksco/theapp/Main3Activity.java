@@ -44,7 +44,7 @@ public class Main3Activity extends AppCompatActivity {
     }
 
     public void openMain4Activity(){
-        Intent intent = new Intent(this, Main4Activity.class);
+        Intent intent = new Intent(this, MapsActivity.class);
         startActivity(intent);
     }
     public void openMain5Activity(){

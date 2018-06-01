@@ -7,6 +7,20 @@
     android:background="@drawable/left_screen"
     tools:context="com.cksco.theapp.Main4Activity">
 
+    <fragment xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/googleMap"
+        android:name="com.cksco.theapp.Main4Activity"
+        class="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginBottom="59dp"
+        tools:context=".MapsActivity" />
+
+
     <Button
         android:id="@+id/right2"
         android:layout_width="130dp"
@@ -23,6 +37,14 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:background="#00ffffff" />
+
+    <Button
+        android:id="@+id/statisticsPage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:text="View Statistics" />
 
 
 </RelativeLayout>

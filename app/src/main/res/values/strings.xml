@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">SOLTA</string>
     <string name="facebook_application_id" translatable="false">2010644662342407</string>
+    <string name="title_activity_maps2">Map</string>
 </resources>
