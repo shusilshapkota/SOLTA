@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">1016961946957-fkkkrg5f1tnoffgth1csmesg5uh18cck.apps.googleusercontent.com</string>
+    <string name="firebase_database_url" translatable="false">https://cosmicrays-eee96.firebaseio.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">1016961946957</string>
+    <string name="google_api_key" translatable="false">AIzaSyB6hEID8zNHuf3gCmnZHOsckgCTcjaCHHs</string>
+    <string name="google_app_id" translatable="false">1:1016961946957:android:69c968e51e410550</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyB6hEID8zNHuf3gCmnZHOsckgCTcjaCHHs</string>
+    <string name="google_storage_bucket" translatable="false">cosmicrays-eee96.appspot.com</string>
+    <string name="project_id" translatable="false">cosmicrays-eee96</string>
+</resources>
