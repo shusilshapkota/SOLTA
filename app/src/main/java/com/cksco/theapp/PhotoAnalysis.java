@@ -113,6 +113,8 @@ public class PhotoAnalysis extends AsyncTask<ByteBuffer, Integer, Void> {
             fileOutputStream.write(bytes.toByteArray());
             ContentResolver cr = mContext.getContentResolver();
 
+
+            // This is where I am uploading pictures to firebase
             uploadToFirebase(bytesToUpload, file);
 
             String imagePath = file.getAbsolutePath();

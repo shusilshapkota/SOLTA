@@ -242,6 +242,7 @@ public class MyGLCamSurf extends GLSurfaceView implements GLSurfaceView.Renderer
         mCamera = null;
     }
 
+
     public void saveFrames(Bitmap bitmap, String filename) throws IOException {
         if (testerBool) {
             if (ContextCompat.checkSelfPermission(getContext(), Manifest.permission.WRITE_EXTERNAL_STORAGE) != PackageManager.PERMISSION_GRANTED)
@@ -297,7 +298,6 @@ public class MyGLCamSurf extends GLSurfaceView implements GLSurfaceView.Renderer
             byteBuf = allocateDirect(width * height * 4);
 
             byteBuf.order(ByteOrder.LITTLE_ENDIAN);
-
             GLES20.glReadPixels(0, 0, width, height, GLES20.GL_RGBA, GLES20.GL_UNSIGNED_BYTE, byteBuf);
             new PhotoAnalysis(width, height, getContext()).execute(byteBuf);
 

@@ -46,5 +46,14 @@
         android:layout_alignParentTop="true"
         android:text="View Statistics" />
 
+    <Button
+        android:id="@+id/newMarker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignStart="@+id/right2"
+        android:layout_marginTop="16dp"
+        android:text="Button" />
+
 
 </RelativeLayout>

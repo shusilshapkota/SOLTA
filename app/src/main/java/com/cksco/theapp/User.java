@@ -47,5 +47,6 @@ public class User {
         this.amount = amount;
         this.hits = hits;
         this.school = new String(school);
+
     }
 }

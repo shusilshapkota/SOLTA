@@ -22,7 +22,7 @@ public class Main2Activity extends AppCompatActivity {
     private Button button2;
     private EditText mMainText;
     FirebaseFirestore mFirestore;
-
+    int score = 0;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -44,8 +44,11 @@ public class Main2Activity extends AppCompatActivity {
             public void onClick(View view) {
 
                 String username = mMainText.getText().toString();
+
                 Map<String, String> userMap = new HashMap<>();
-                userMap.put("username", username);
+                userMap.put("Username: ", username);
+                userMap.put("School: ", "Craig Kielburger Secondary School");
+                userMap.put("Score: ", "N/A");
 
                 mFirestore.collection("Users").add(userMap).addOnSuccessListener(new OnSuccessListener<DocumentReference>() {
                     @Override

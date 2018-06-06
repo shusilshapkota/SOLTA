@@ -89,26 +89,26 @@ public class MapsActivity extends FragmentActivity implements OnMapReadyCallback
         alreadyExists = false;
         locationManager = (LocationManager) this.getSystemService(LOCATION_SERVICE);
         statsPage = new Stats();
-//        newMarkerButton = findViewById(R.id.newMarker);
-//        newMarkerButton.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                if(signedIn) {
-//                    addNewMarker(currentLocation);
-//                }else{
-//                    Toast.makeText(MapsActivity.this,"Sign In To Add Markers",Toast.LENGTH_SHORT).show();
-//                }
-//            }
-//        });
-
-
-//        signIn = findViewById(R.id.googleButton);
-//        signIn.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                startActivity(new Intent(MapsActivity.this,googleSignIn.class));
-//            }
-//        });
+        newMarkerButton = findViewById(R.id.newMarker);
+        newMarkerButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                if (signedIn) {
+                    addNewMarker(currentLocation);
+                } else {
+                    Toast.makeText(MapsActivity.this, "Sign In To Add Markers", Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
+////
+////
+//////        signIn = findViewById(R.id.googleButton);
+//////        signIn.setOnClickListener(new View.OnClickListener() {
+//////            @Override
+//////            public void onClick(View v) {
+//////                startActivity(new Intent(MapsActivity.this,googleSignIn.class));
+//////            }
+//////        });
         stats = findViewById(R.id.statisticsPage);
         stats.setOnClickListener(new View.OnClickListener() {
 
